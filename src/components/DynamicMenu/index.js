@@ -277,16 +277,16 @@ const DynamicMenu = ({ urlPathname, mobileView, toggle }) => {
 
   // ^ Expansion section for About page
 
-  const renderAboutMenuDesktop = () => {
-    const AboutMenuComponents = aboutMenuData.map((item) => {
-      let MenuItemComponent;
-      MenuItemComponent = (
-        <DesktopLinkRouter to={item.toRoute}>{item.name}</DesktopLinkRouter>
-      );
-      return MenuItemComponent;
-    });
-    return <NavMenu>{AboutMenuComponents}</NavMenu>;
-  };
+  // const renderAboutMenuDesktop = () => {
+  //   const AboutMenuComponents = aboutMenuData.map((item) => {
+  //     let MenuItemComponent;
+  //     MenuItemComponent = (
+  //       <DesktopLinkRouter to={item.toRoute}>{item.name}</DesktopLinkRouter>
+  //     );
+  //     return MenuItemComponent;
+  //   });
+  //   return <NavMenu>{AboutMenuComponents}</NavMenu>;
+  // };
 
   let finalMenu;
 

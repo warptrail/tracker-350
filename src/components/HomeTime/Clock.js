@@ -1,13 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import {
-  ClockFrame,
-  Label,
-  IsoFormat,
-  IsoDiv,
-  DateText,
-  TimeText,
-} from './HTElements';
+import { ClockFrame, TimeText } from './HTElements';
 
 const Clock = ({ clock }) => {
   console.log(clock);

@@ -4,9 +4,6 @@ import { useLocation } from 'react-router-dom';
 import HeroSection from '../components/HeroSection';
 import Footer from '../components/Footer';
 import Calendar from '../components/Calendar';
-import InfoSection from '../components/InfoSection';
-
-import { homeObjOne } from '../Data';
 import HomeTime from '../components/HomeTime';
 
 const Home = () => {

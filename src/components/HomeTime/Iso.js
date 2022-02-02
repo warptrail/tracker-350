@@ -5,14 +5,7 @@ import utc from 'dayjs/plugin/utc';
 import { numberWithCommas } from '../../util/numberWithCommas.js';
 import { CopyToClipboardBtn } from '../CopyToClipboardBtn';
 
-import {
-  ClockFrame,
-  Label,
-  IsoFormat,
-  IsoDiv,
-  DateText,
-  TimeText,
-} from './HTElements';
+import { Label, IsoFormat, IsoDiv } from './HTElements';
 
 dayjs.extend(utc);
 

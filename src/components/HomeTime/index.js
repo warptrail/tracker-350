@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
 // * Image Import
 import IconBm from '../../images/undraw-img-1.svg';
@@ -6,7 +6,7 @@ import bird from '../../images/bird.png';
 import umbra from '../../images/umbra.png';
 
 // * Data Import
-import { timeInfo } from './time';
+// import { timeInfo } from './time';
 
 // * Components
 import Content from './Content';
@@ -14,11 +14,8 @@ import Content from './Content';
 // * Elements
 import {
   Column1,
-  Heading,
   TextWrapper,
   TopLine,
-  Subtitle,
-  TimeInfo,
   Container,
   Row,
   Wrapper,
@@ -28,10 +25,10 @@ import {
   Poem,
   Intro,
 } from './HTElements';
-import Clock from './Clock.js';
+// import Clock from './Clock.js';
 import ColorGif from '../ColorGif';
 import Iso from './Iso';
-import { Button } from 'react-scroll';
+// import { Button } from 'react-scroll';
 
 const info = {
   topLine: `Time is a Liquid`,

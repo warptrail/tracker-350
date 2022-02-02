@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { animateScroll as scroll } from 'react-scroll';
-import { FaBars, FaRoad, FaCoffee } from 'react-icons/fa';
+import { FaBars, FaCoffee } from 'react-icons/fa';
 import { useLocation } from 'react-router-dom';
 
 import {
@@ -15,7 +15,7 @@ import DynamicMenu from '../DynamicMenu';
 
 const Navbar = ({ toggle }) => {
   const currentURL = useLocation();
-  console.log(currentURL);
+
   const [scrollNav, setScrollNav] = useState(false);
 
   // when past a particular point, trigger the transparent nav background
@@ -45,7 +45,7 @@ const Navbar = ({ toggle }) => {
       >
         <NavbarContainer>
           <NavLogo to="/" onClick={toggleHome}>
-            <NavLogoText>Tracker 400</NavLogoText>
+            <NavLogoText>Tracker 350</NavLogoText>
             <FaCoffee />
           </NavLogo>
           <DynamicMenu urlPathname={currentURL.pathname} mobileView={false} />

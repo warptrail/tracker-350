@@ -32,7 +32,8 @@ dayjs.locale('en');
 function Calendar({ clock }) {
   // ^ Set the current moment
   const [dateObject, setDateObject] = useState(dayjs().locale('en'));
-  const [currentDate, setCurrentDate] = useState(dayjs().locale('en'));
+  // const [currentDate, setCurrentDate] = useState(dayjs().locale('en'));
+  const currentDate = dayjs().locale('en');
 
   // * Controls for selecting the month
 

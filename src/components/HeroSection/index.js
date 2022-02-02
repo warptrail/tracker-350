@@ -56,7 +56,7 @@ const HeroSection = () => {
         <PhotoBg src={backgroundImage} />
       </HeroBg>
       <HeroContent>
-        <HeroH1>Tracker 400</HeroH1>
+        <HeroH1>Tracker 350</HeroH1>
         <HeroP>Life is a series of events</HeroP>
         <HeroBtnWrapper>
           <Button

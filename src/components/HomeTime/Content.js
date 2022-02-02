@@ -9,7 +9,6 @@ import {
   InfoSpan2,
   InfoSpan3,
   InfoSpan4,
-  P1,
   P2,
   P3,
   TimeSpan,
